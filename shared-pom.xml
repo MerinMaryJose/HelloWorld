@@ -29,6 +29,25 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 					<groupId>io.apigee.build-tools.enterprise4g</groupId>
 					<artifactId>apigee-edge-maven-plugin</artifactId>
 					<version>1.0.3</version>
+					<configuration>
+						<skip>true</skip> <!-- Use this module level config to skip module build. Make it true -->
+					</configuration>
+					<executions>
+						<execution>
+							<id>configure-bundle</id>
+							<phase>package</phase>
+							<goals>
+								<goal>configure</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>deploy-bundle</id>
+							<phase>install</phase>
+							<goals>
+								<goal>deploy</goal>
+							</goals>
+						</execution>
+					</executions>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
