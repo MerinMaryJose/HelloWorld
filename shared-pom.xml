@@ -171,7 +171,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 </executions>
             </plugin>
 
-
 		</plugins>
 	</build>
 
@@ -202,5 +201,3 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	</dependencies>
 
 </project>
-
-
