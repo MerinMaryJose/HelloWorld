@@ -4,7 +4,7 @@
     <groupId>infosys</groupId>
     <artifactId>shared-pom</artifactId>
     <version>1.0</version>
-    <relativePath>D:/scrum b/GITHub/HelloWorld/shared-pom.xml</relativePath>
+    <relativePath>../shared-pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>infosys</groupId>
